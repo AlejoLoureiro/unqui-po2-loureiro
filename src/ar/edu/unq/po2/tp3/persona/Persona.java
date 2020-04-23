@@ -3,6 +3,9 @@ package ar.edu.unq.po2.tp3.persona;
 import java.util.Calendar;
 import java.util.Date;
 
+
+// Esta es la definicion de persona del punto 8 ya que la definicion del punto 9 es diferente. 
+// La definicion de persona del punto nueve esta en el paquete equipoDeTrabajo.
 public class Persona {
 	
 	private String nombre;
