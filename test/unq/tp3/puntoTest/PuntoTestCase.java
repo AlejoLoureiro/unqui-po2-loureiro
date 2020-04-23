@@ -47,4 +47,8 @@ class PuntoTestCase {
 		assertEquals(punto3.getY(), 8);
 	}
 	
+	void testIsEqualTo() {
+		assertTrue(punto1.isEqualTo(new Punto(2,3)));
+	}
+	
 }

@@ -55,6 +55,15 @@ public class Punto {
 		this.y = this.y - y;
 	}
 
+	public boolean isEqualTo(Punto punto) {
+		return ((this.getX() == punto.getX()) && (this.getY() == punto.getY()));
+	}
+	
+	public Punto copy() {
+		Punto punto = new Punto(x,y);
+		return punto;
+	}
+	
 	public void moverPunto(int x, int y) {
 		this.setX(x);
 		this.setY(y);
