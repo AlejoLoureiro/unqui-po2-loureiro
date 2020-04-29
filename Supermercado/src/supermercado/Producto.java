@@ -5,9 +5,9 @@ import java.util.function.BooleanSupplier;
 public class Producto {
 
 	
-	protected String nombre;
-	protected double precio;
-	protected boolean esPreciosCuidados;
+	private String nombre;
+	private double precio;
+	private boolean esPreciosCuidados;
 	
 	public Producto(String nombre, double precio) {
 		this.nombre = nombre;

@@ -10,7 +10,7 @@ public class ProductoPrimeraNecesidad extends Producto {
 	}
 
 	public double getPrecio() {
-		return (precio - (this.precio * (descuento/ 100))); // calculo el precio final con el descuento
+		return (super.getPrecio() - (super.getPrecio() * (descuento/ 100))); // calculo el precio final con el descuento
 	}
 	
 }
