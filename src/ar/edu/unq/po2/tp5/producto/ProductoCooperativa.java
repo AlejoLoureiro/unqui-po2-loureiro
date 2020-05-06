@@ -8,6 +8,6 @@ public class ProductoCooperativa extends Producto {
 	}
 	
 	public Double getPrecio() {
-		return (this.precio * 0.1);
+		return (this.precio - (this.precio * 0.1));
 	}
 }
