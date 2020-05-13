@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import ar.edu.unq.po2.tp5.agencia.Agencia;
 import ar.edu.unq.po2.tp5.caja.Caja;
 import ar.edu.unq.po2.tp5.producto.Producto;
 import ar.edu.unq.po2.tp5.producto.ProductoCooperativa;

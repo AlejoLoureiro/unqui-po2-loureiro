@@ -31,9 +31,14 @@ class StockTestCase {
 	
 	@Test
 	void testSacarProductoDeStock() {
-		Producto harina = new ProductoTradicional("Harina", 40d);
-		stock.sacarProductoDeStock(harina.getNombre());
-		assertEquals(false, stock.tieneProducto(harina.getNombre()));
+		stock.sacarProductoDeStock("Harina");
+		assertEquals(false, stock.tieneProducto("Harina"));
+	}
+	
+	@Test
+	void testDeProductosDisponibles() {
+		stock.sacarProductoDeStock("Harina");
+		assertEquals(1, stock.cantidadDeProductosDisponibles());
 	}
 
 }
